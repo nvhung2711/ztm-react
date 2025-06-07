@@ -1,10 +1,10 @@
 import { Fragment, useContext } from 'react';
-import { Outlet, Link } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 
 import CrwnLogo from '../../assets/crown.svg';
 
 import CartIcon from '../../components/cart-icon/cart-icon';
-import CartDropDown from '../../components/cart-drop-down/cart-drop-down';
+import CartDropDown from '../../components/cart-dropdown/cart-dropdown';
 
 import { UserContext } from '../../contexts/user.context';
 import { CartContext } from '../../contexts/cart.context';
